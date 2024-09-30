@@ -215,6 +215,41 @@ body {
   /* background: linear-gradient(to bottom, #010827 20%, #020617 80%); */
   background-position: center;
   padding-top: 2rem;
+  background-image: url("./assets/gradient-bg.png");
+  margin: auto;
+}
+.bg-gradient {
+  background-image: url("./assets/gradient-bg.png");
+}
+.lync-desc {
+  color: white;
+  font-size: 1.2rem;
+  text-align: center;
+  width: 90%;
+  margin: 5rem auto;
+  font-weight: 600;
+}
+.blockchain {
+  width: 90%;
+  margin: 3rem auto;
+}
+.blockchain-head {
+  color: white;
+  text-align: center;
+  font-size: 1.5rem;
+  font-weight: 700;
+  margin-bottom: 3rem;
+}
+.blockchain-img-cont {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  gap: 5%;
+}
+.blockchain-img-cont > img {
+  width: 100px;
+  height: 100px;
 }
 
 @media screen and (max-width: 450px) {
@@ -276,6 +311,33 @@ body {
     font-size: 1.3rem;
     margin-bottom: 1.4rem;
   }
+
+  .lync-desc {
+    font-size: 1.2rem;
+    text-align: center;
+    width: 80%;
+    margin: 6rem auto;
+    font-weight: 600;
+  }
+  .blockchain {
+    width: 80%;
+    margin: 3rem auto;
+  }
+  .blockchain-head {
+    font-size: 2rem;
+    font-weight: 700;
+    margin-bottom: 5rem;
+    width: 500px;
+    margin: auto;
+  }
+  .blockchain-img-cont {
+    margin-top: 4rem;
+    gap: 8%;
+  }
+  .blockchain-img-cont > img {
+    width: 150px;
+    height: 140px;
+  }
 }
 @media screen and (min-width: 912px) {
   .nav-mob {
@@ -327,5 +389,31 @@ body {
   .backed-head {
     font-size: 1.3rem;
     margin-bottom: 1.4rem;
+  }
+  .lync-desc {
+    font-size: 1.5rem;
+    text-align: center;
+    width: 700px;
+    margin: 6rem auto;
+    font-weight: 600;
+  }
+  .blockchain {
+    width: 90%;
+    margin: 3rem auto;
+  }
+  .blockchain-head {
+    font-size: 2rem;
+    font-weight: 700;
+    margin-bottom: 5rem;
+    width: 500px;
+    margin: auto;
+  }
+  .blockchain-img-cont {
+    margin: 4rem 0;
+    gap: 8%;
+  }
+  .blockchain-img-cont > img {
+    width: 150px;
+    height: 150px;
   }
 }
