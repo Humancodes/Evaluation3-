@@ -1,0 +1,133 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style-type: none;
+  font-family: "Inter", sans-serif;
+}
+/* background: #020617; */
+button {
+  border: none;
+}
+a {
+  color: inherit;
+}
+body {
+  background-color: rgb(25, 5, 66);
+  background-position: center;
+}
+/* .container {
+  height: 100%;
+  width: 100%;
+} */
+/* Navbar */
+.nav-mob {
+  width: 90%;
+  margin: auto;
+  height: 80px;
+  border: 1px solid gainsboro;
+  background: linear-gradient(
+    92.98deg,
+    rgba(217, 217, 217, 0.07) 32.09%,
+    rgba(217, 217, 217, 0.05) 116.98%
+  );
+  backdrop-filter: blur(250px);
+  border-radius: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 2rem;
+}
+.nav-mob-items {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 0 1rem;
+}
+.nav-menu {
+  color: white;
+  font-size: 1.5rem;
+  margin-left: 1.2rem;
+}
+.logo {
+}
+.nav-btn {
+  border: none;
+  background-color: white;
+  padding: 1rem 1.5rem;
+  border-radius: 2rem;
+}
+/* Hero */
+
+.hero {
+  background-image: url("./assets/hero-bg.svg");
+  height: 500px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-size: 120%;
+  background-position: top;
+  background-repeat: no-repeat;
+}
+.hero-text-box {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  gap: 2.5rem;
+  margin: 7rem 0;
+  width: 90%;
+  margin: auto;
+}
+.hero-head {
+  color: white;
+  font-size: 2.5rem;
+  font-weight: 800;
+}
+.hero-head > span {
+  background: linear-gradient(94.68deg, #ff0276 2.51%, #7209b7 56.42%);
+  background-clip: text;
+  color: transparent;
+}
+.hero-para {
+  font-weight: 500;
+  font-size: 1rem;
+  color: #daddd8;
+}
+.hero-btns {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 100%;
+  gap: 1rem;
+}
+.hero-btn1 {
+  width: 100%;
+  background: linear-gradient(205.14deg, #3f37c9 30.04%, #4cc9f0 186.57%);
+  color: white;
+  padding: 0.8rem 0;
+  border-radius: 1.5rem;
+  font-weight: 600;
+  font-size: 1rem;
+}
+.hero-btn2 {
+  width: 100%;
+  color: white;
+  background-color: transparent;
+  backdrop-filter: blur(300px);
+  font-weight: 600;
+  font-size: 1rem;
+}
+.hero-btn1 > i,
+.hero-btn2 > i {
+  margin-left: 0.4rem;
+}
+
+/* @media screen and (min-width:431px) and (max-width){
+
+} */
